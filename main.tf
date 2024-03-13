@@ -1,3 +1,7 @@
+variable "hello" {
+  type = string
+}
+
 output "hello" {
-  value = "world"
+  value = var.hello
 }
